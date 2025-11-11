@@ -2,15 +2,22 @@ using UnityEngine;
 
 public class Collectable : MonoBehaviour
 {
+
+    ScoreManager scoreManager;
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        scoreManager = GameObject.Find("Canvas").GetComponent<ScoreManager>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter(Collider other)
     {
-        
+            if(other.CompareTag("Player"))
+        {
+            scoreManager.IncreaseScore();
+            gameObject.SetActive(false);
+        }
     }
 }
