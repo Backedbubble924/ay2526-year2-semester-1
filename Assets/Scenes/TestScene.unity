@@ -3223,6 +3223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 179462411}
+  score: 0
 --- !u!114 &708134980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4539,7 +4540,7 @@ GameObject:
   - component: {fileID: 1131504337}
   - component: {fileID: 1131504336}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: EndLevel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4560,7 +4561,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -4628,8 +4629,8 @@ Transform:
   m_GameObject: {fileID: 1131504335}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 210.71281, y: 2.2834651, z: 56.33}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 1.827, z: 4.98}
+  m_LocalScale: {x: 1.0667951, y: 1.7742, z: 0.28117}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
