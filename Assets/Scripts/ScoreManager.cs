@@ -6,7 +6,9 @@ public class ScoreManager : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI scoreText;
     public int score;
+    public int endGameActivateThreshold;
     public static ScoreManager Instance { get; private set; }
+    public GameObject EndGameCollider;
 
     private void Awake()
     {
@@ -29,5 +31,10 @@ public class ScoreManager : MonoBehaviour
     {
         score++;
         scoreText.text = "Items collected: " + score;
+
+        if (score >= endGameActivateThreshold)
+        {
+            EndGameCollider.SetActive(true);
+        }
     }
 }
