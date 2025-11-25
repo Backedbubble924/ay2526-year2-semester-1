@@ -197,4 +197,8 @@ public class ThirdPersonController : MonoBehaviour
         }
     }
 
+    void devCommandGive19Coins()
+    {
+
+    }
 }
