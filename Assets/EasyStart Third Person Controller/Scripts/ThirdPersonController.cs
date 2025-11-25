@@ -68,6 +68,10 @@ public class ThirdPersonController : MonoBehaviour
         inputSprint = Input.GetAxis("Fire3") == 1f;
         // Unfortunately GetAxis does not work with GetKeyDown, so inputs must be taken individually
         inputCrouch = Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.JoystickButton1);
+        if(Input.GetKeyDown(KeyCode.K))
+        {
+            devCommandGive19Coins();
+        }
 
         // Check if you pressed the crouch input key and change the player's state
         if ( inputCrouch )
@@ -199,6 +203,11 @@ public class ThirdPersonController : MonoBehaviour
 
     void devCommandGive19Coins()
     {
+        //ScoreManager.Instance.score = 19;
 
+        for (int i = 0; i < 19; i++)
+        {
+            ScoreManager.Instance.IncreaseScore();
+        }
     }
 }

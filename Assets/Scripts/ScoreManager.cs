@@ -5,7 +5,7 @@ using UnityEngine;
 public class ScoreManager : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI scoreText;
-    int score;
+    public int score;
     public static ScoreManager Instance { get; private set; }
 
     private void Awake()
