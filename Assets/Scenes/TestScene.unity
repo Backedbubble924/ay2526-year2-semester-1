@@ -189,6 +189,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 175773174}
     m_Modifications:
+    - target: {fileID: 1065036018963459081, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 79748527}
     - target: {fileID: 2003389320710029798, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
       propertyPath: m_Name
       value: GoldCoins Variant (17)
@@ -949,110 +953,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1915304044693309428, guid: 3a02fc76e8556b04683abc2885631638, type: 3}
   m_PrefabInstance: {fileID: 681534804}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &78579551
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2015515260}
-    m_Modifications:
-    - target: {fileID: 501295248461903500, guid: d6a5e2c4aefa6804b8f7d2af9a9676b5, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 501295248461903500, guid: d6a5e2c4aefa6804b8f7d2af9a9676b5, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 8ae06bec34c22884ba2acfa17c229c65, type: 2}
-    - target: {fileID: 501295248461903503, guid: d6a5e2c4aefa6804b8f7d2af9a9676b5, type: 3}
-      propertyPath: InitialModule.startLifetime.scalar
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 501295248943222296, guid: d6a5e2c4aefa6804b8f7d2af9a9676b5, type: 3}
-      propertyPath: m_Name
-      value: CampFire
-      objectReference: {fileID: 0}
-    - target: {fileID: 501295248943452728, guid: d6a5e2c4aefa6804b8f7d2af9a9676b5, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 24.658833
-      objectReference: {fileID: 0}
-    - target: {fileID: 501295248943452728, guid: d6a5e2c4aefa6804b8f7d2af9a9676b5, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -29.962164
-      objectReference: {fileID: 0}
-    - target: {fileID: 501295248943452728, guid: d6a5e2c4aefa6804b8f7d2af9a9676b5, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -14.129545
-      objectReference: {fileID: 0}
-    - target: {fileID: 501295248943452728, guid: d6a5e2c4aefa6804b8f7d2af9a9676b5, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 501295248943452728, guid: d6a5e2c4aefa6804b8f7d2af9a9676b5, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 501295248943452728, guid: d6a5e2c4aefa6804b8f7d2af9a9676b5, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 501295248943452728, guid: d6a5e2c4aefa6804b8f7d2af9a9676b5, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 501295248943452728, guid: d6a5e2c4aefa6804b8f7d2af9a9676b5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 501295248943452728, guid: d6a5e2c4aefa6804b8f7d2af9a9676b5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 501295248943452728, guid: d6a5e2c4aefa6804b8f7d2af9a9676b5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 501295248945221848, guid: d6a5e2c4aefa6804b8f7d2af9a9676b5, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: cde7255234641b94b851e443341c8797, type: 2}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 501295248461903501, guid: d6a5e2c4aefa6804b8f7d2af9a9676b5, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 78579553}
-  m_SourcePrefab: {fileID: 100100000, guid: d6a5e2c4aefa6804b8f7d2af9a9676b5, type: 3}
---- !u!1 &78579552 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 501295248461903501, guid: d6a5e2c4aefa6804b8f7d2af9a9676b5, type: 3}
-  m_PrefabInstance: {fileID: 78579551}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &78579553
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 78579552}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Version: 3
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_RenderingLayers: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_ShadowRenderingLayers: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
-  m_SoftShadowQuality: 0
 --- !u!108 &79748527 stripped
 Light:
   m_CorrespondingSourceObject: {fileID: 8609632567568259196, guid: cd21de0c23bb56d4790f41c530987dd9, type: 3}
@@ -1241,7 +1141,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6087335469338451081, guid: 127ca850a4457ad4b913ff6f1383d396, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1646,12 +1546,12 @@ GameObject:
   - component: {fileID: 174615784}
   - component: {fileID: 174615783}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: worldParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!199 &174615783
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -6568,8 +6468,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Items collected:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a8fea61b63955be4980d767f96073b55, type: 2}
+  m_sharedMaterial: {fileID: 1764590807201455615, guid: a8fea61b63955be4980d767f96073b55, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6951,6 +6851,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 175773174}
     m_Modifications:
+    - target: {fileID: 1065036018963459081, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 79748527}
     - target: {fileID: 2003389320710029798, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
       propertyPath: m_Name
       value: GoldCoins Variant (26)
@@ -7080,6 +6984,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 175773174}
     m_Modifications:
+    - target: {fileID: 1065036018963459081, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 79748527}
     - target: {fileID: 2003389320710029798, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
       propertyPath: m_Name
       value: GoldCoins Variant (6)
@@ -8030,6 +7938,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 175773174}
     m_Modifications:
+    - target: {fileID: 1065036018963459081, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 79748527}
     - target: {fileID: 2003389320710029798, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
       propertyPath: m_Name
       value: GoldCoins Variant (4)
@@ -8464,6 +8376,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 175773174}
     m_Modifications:
+    - target: {fileID: 1065036018963459081, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 79748527}
     - target: {fileID: 2003389320710029798, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
       propertyPath: m_Name
       value: GoldCoins Variant (18)
@@ -8759,6 +8675,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 175773174}
     m_Modifications:
+    - target: {fileID: 1065036018963459081, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 79748527}
     - target: {fileID: 2003389320710029798, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
       propertyPath: m_Name
       value: GoldCoins Variant (14)
@@ -9983,6 +9903,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 175773174}
     m_Modifications:
+    - target: {fileID: 1065036018963459081, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 79748527}
     - target: {fileID: 2003389320710029798, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
       propertyPath: m_Name
       value: GoldCoins Variant (25)
@@ -10814,6 +10738,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 175773174}
     m_Modifications:
+    - target: {fileID: 1065036018963459081, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 79748527}
     - target: {fileID: 2003389320710029798, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
       propertyPath: m_Name
       value: GoldCoins Variant (1)
@@ -11403,6 +11331,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 175773174}
     m_Modifications:
+    - target: {fileID: 1065036018963459081, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 79748527}
     - target: {fileID: 2003389320710029798, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
       propertyPath: m_Name
       value: GoldCoins Variant (15)
@@ -11633,6 +11565,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 175773174}
     m_Modifications:
+    - target: {fileID: 1065036018963459081, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 79748527}
     - target: {fileID: 2003389320710029798, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
       propertyPath: m_Name
       value: GoldCoins Variant (27)
@@ -12057,6 +11993,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 175773174}
     m_Modifications:
+    - target: {fileID: 1065036018963459081, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 79748527}
     - target: {fileID: 2003389320710029798, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
       propertyPath: m_Name
       value: GoldCoins Variant (13)
@@ -12352,6 +12292,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 175773174}
     m_Modifications:
+    - target: {fileID: 1065036018963459081, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 79748527}
     - target: {fileID: 2003389320710029798, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
       propertyPath: m_Name
       value: GoldCoins Variant (16)
@@ -12853,6 +12797,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 175773174}
     m_Modifications:
+    - target: {fileID: 1065036018963459081, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 79748527}
     - target: {fileID: 2003389320710029798, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
       propertyPath: m_Name
       value: GoldCoins Variant (22)
@@ -12977,6 +12925,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 175773174}
     m_Modifications:
+    - target: {fileID: 1065036018963459081, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 79748527}
     - target: {fileID: 2003389320710029798, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
       propertyPath: m_Name
       value: GoldCoins Variant (11)
@@ -13173,6 +13125,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 175773174}
     m_Modifications:
+    - target: {fileID: 1065036018963459081, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 79748527}
     - target: {fileID: 2003389320710029798, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
       propertyPath: m_Name
       value: GoldCoins Variant (28)
@@ -13647,6 +13603,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 175773174}
     m_Modifications:
+    - target: {fileID: 1065036018963459081, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 79748527}
     - target: {fileID: 2003389320710029798, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
       propertyPath: m_Name
       value: GoldCoins Variant (21)
@@ -13730,6 +13690,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 175773174}
     m_Modifications:
+    - target: {fileID: 1065036018963459081, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 79748527}
     - target: {fileID: 2003389320710029798, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
       propertyPath: m_Name
       value: GoldCoins Variant (19)
@@ -14726,6 +14690,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 175773174}
     m_Modifications:
+    - target: {fileID: 1065036018963459081, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 79748527}
     - target: {fileID: 2003389320710029798, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
       propertyPath: m_Name
       value: GoldCoins Variant (7)
@@ -15000,6 +14968,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 175773174}
     m_Modifications:
+    - target: {fileID: 1065036018963459081, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 79748527}
     - target: {fileID: 2003389320710029798, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
       propertyPath: m_Name
       value: GoldCoins Variant (12)
@@ -15436,6 +15408,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 175773174}
     m_Modifications:
+    - target: {fileID: 1065036018963459081, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 79748527}
     - target: {fileID: 2003389320710029798, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
       propertyPath: m_Name
       value: GoldCoins Variant (2)
@@ -15955,6 +15931,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 175773174}
     m_Modifications:
+    - target: {fileID: 1065036018963459081, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 79748527}
     - target: {fileID: 2003389320710029798, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
       propertyPath: m_Name
       value: GoldCoins Variant (9)
@@ -16322,6 +16302,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 175773174}
     m_Modifications:
+    - target: {fileID: 1065036018963459081, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 79748527}
     - target: {fileID: 2003389320710029798, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
       propertyPath: m_Name
       value: GoldCoins Variant (24)
@@ -16586,6 +16570,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 175773174}
     m_Modifications:
+    - target: {fileID: 1065036018963459081, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 79748527}
     - target: {fileID: 2003389320710029798, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
       propertyPath: m_Name
       value: GoldCoins Variant (10)
@@ -17366,6 +17354,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 175773174}
     m_Modifications:
+    - target: {fileID: 1065036018963459081, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 79748527}
     - target: {fileID: 2003389320710029798, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
       propertyPath: m_Name
       value: GoldCoins Variant (5)
@@ -17746,7 +17738,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8860367474067600763, guid: c78ba79e96edd094cbc87fbba2832bef, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -117.544716
+      value: -105.544716
       objectReference: {fileID: 0}
     - target: {fileID: 8860367474067600763, guid: c78ba79e96edd094cbc87fbba2832bef, type: 3}
       propertyPath: m_LocalRotation.w
@@ -18583,11 +18575,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8860367474067600763, guid: c78ba79e96edd094cbc87fbba2832bef, type: 3}
   m_PrefabInstance: {fileID: 1816026330}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1821137230 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 501295248943452728, guid: d6a5e2c4aefa6804b8f7d2af9a9676b5, type: 3}
-  m_PrefabInstance: {fileID: 78579551}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1823714498
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18596,6 +18583,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 175773174}
     m_Modifications:
+    - target: {fileID: 1065036018963459081, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 79748527}
     - target: {fileID: 2003389320710029798, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
       propertyPath: m_Name
       value: GoldCoins Variant (23)
@@ -18658,6 +18649,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 175773174}
     m_Modifications:
+    - target: {fileID: 1065036018963459081, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 79748527}
     - target: {fileID: 2003389320710029798, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
       propertyPath: m_Name
       value: GoldCoins Variant (20)
@@ -19441,7 +19436,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4952467050408558629, guid: 268bbd229edfdba45a4d45903e472716, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.38
+      value: -59.620003
       objectReference: {fileID: 0}
     - target: {fileID: 4952467050408558629, guid: 268bbd229edfdba45a4d45903e472716, type: 3}
       propertyPath: m_LocalRotation.w
@@ -20941,7 +20936,6 @@ Transform:
   m_Children:
   - {fileID: 1104033767}
   - {fileID: 49148409}
-  - {fileID: 1821137230}
   - {fileID: 76751710}
   - {fileID: 2123037531}
   - {fileID: 1793868629}
@@ -21317,6 +21311,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 175773174}
     m_Modifications:
+    - target: {fileID: 1065036018963459081, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 79748527}
     - target: {fileID: 2003389320710029798, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
       propertyPath: m_Name
       value: GoldCoins Variant (3)
@@ -21508,6 +21506,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 175773174}
     m_Modifications:
+    - target: {fileID: 1065036018963459081, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 79748527}
     - target: {fileID: 2003389320710029798, guid: af44bdf62971af34cb0eb6332c07434b, type: 3}
       propertyPath: m_Name
       value: GoldCoins Variant (8)
