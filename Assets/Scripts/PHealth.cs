@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PHealth : MonoBehaviour
@@ -7,6 +8,7 @@ public class PHealth : MonoBehaviour
     public int health;
     public int maxHealth = 10;
     public Image Health;
+    public string Scene;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -26,6 +28,7 @@ public class PHealth : MonoBehaviour
         if (health <= 0)
         {
             Destroy(gameObject);
+            SceneManager.LoadScene(Scene);
         }
     }
 }
