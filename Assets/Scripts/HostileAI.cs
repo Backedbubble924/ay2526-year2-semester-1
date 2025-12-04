@@ -117,7 +117,6 @@ public class HostileAI : MonoBehaviour
         projectileInstance.AddForce(transform.forward * forwardShotForce, ForceMode.Impulse);
         projectileInstance.AddForce(transform.up * verticalShotForce, ForceMode.Impulse);
 
-        Destroy(projectileInstance.gameObject, 3f);
     }
 
     private IEnumerator AttackCooldownRoutine()
